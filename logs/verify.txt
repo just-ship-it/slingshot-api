@@ -1,0 +1,872 @@
+🔬 VERIFYING API DATA AGAINST TRADINGVIEW CSV EXPORT
+=====================================================
+Verification Time: 2025-11-22T01:21:54.469Z
+
+📄 Reading CSV from: C:\projects\ereptor\slingshot\backend\logs\tradovate orders.csv
+✅ Found 5 orders in CSV
+
+📊 CSV ORDERS (Ground Truth):
+============================================================
+  Order #11752018574: Sell Limit @ 24775.25 - Rejected
+  Order #11752018571: Sell Limit @ 24738.25 - Rejected
+  Order #11752018568: Buy Limit @ 24379.75 - Rejected
+  Order #11752018565: Buy Limit @ 24486.5 - Rejected
+  Order #11752018562: Buy Limit @ 24493.5 - Rejected
+🔧 Environment variables:
+TRADOVATE_USE_DEMO: false
+TRADOVATE_DEMO_URL: https://demo.tradovateapi.com/v1
+TRADOVATE_LIVE_URL: https://live.tradovateapi.com/v1
+🎯 Selected baseUrl: https://live.tradovateapi.com/v1
+🎯 Selected wsUrl: wss://md.tradovateapi.com/v1/websocket
+
+🔐 Authenticating with Tradovate API...
+2025-11-22T01:21:54.478Z [TRADOVATE-INFO]: Authenticating with Tradovate LIVE
+2025-11-22T01:21:54.481Z [TRADOVATE-INFO]: Authenticating with username/password + CID/Secret...
+2025-11-22T01:21:54.698Z [TRADOVATE-INFO]: ✅ Successfully authenticated with Tradovate
+✅ Authentication successful
+
+2025-11-22T01:21:54.699Z [RATE-LIMITER-INFO]: Executing request get-accounts (attempt 1)
+2025-11-22T01:21:54.763Z [RATE-LIMITER-INFO]: Request get-accounts completed successfully in 62ms
+2025-11-22T01:21:54.763Z [TRADOVATE-INFO]: Retrieved 2 accounts
+📋 Found 2 accounts
+
+
+🔍 CHECKING ACCOUNT 245058 (1084107)
+============================================================
+
+📋 Getting all orders from API...
+2025-11-22T01:21:56.203Z [RATE-LIMITER-INFO]: Executing request get-orders-245058 (attempt 1)
+2025-11-22T01:21:56.251Z [RATE-LIMITER-INFO]: Request get-orders-245058 completed successfully in 48ms
+2025-11-22T01:21:56.251Z [TRADOVATE-INFO]: 📋 Raw orders response: [
+  {
+    "id": 11752018574,
+    "accountId": 761526,
+    "contractId": 4214197,
+    "timestamp": "2025-11-22T01:16:18.959Z",
+    "action": "Sell",
+    "ordStatus": "Rejected",
+    "executionProviderId": 3,
+    "archived": false,
+    "external": false,
+    "admin": false
+  },
+  {
+    "id": 11752018565,
+    "accountId": 761526,
+    "contractId": 4214197,
+    "timestamp": "2025-11-22T01:16:10.580Z",
+    "action": "Buy",
+    "ordStatus": "Rejected",
+    "executionProviderId": 3,
+    "archived": false,
+    "external": false,
+    "admin": false
+  },
+  {
+    "id": 11752018562,
+    "accountId": 761526,
+    "contractId": 4214197,
+    "timestamp": "2025-11-22T01:15:12.488Z",
+    "action": "Buy",
+    "ordStatus": "Rejected",
+    "executionProviderId": 3,
+    "archived": false,
+    "external": false,
+    "admin": false
+  },
+  {
+    "id": 11752018568,
+    "accountId": 761526,
+    "contractId": 4214197,
+    "timestamp": "2025-11-22T01:16:14.228Z",
+    "action": "Buy",
+    "ordStatus": "Rejected",
+    "executionProviderId": 3,
+    "archived": false,
+    "external": false,
+    "admin": false
+  },
+  {
+    "id": 11752018571,
+    "accountId": 761526,
+    "contractId": 4214197,
+    "timestamp": "2025-11-22T01:16:17.090Z",
+    "action": "Sell",
+    "ordStatus": "Rejected",
+    "executionProviderId": 3,
+    "archived": false,
+    "external": false,
+    "admin": false
+  }
+]
+📊 Total orders from API: 5
+
+✅ Found 5 matching orders in API
+
+🔍 DETAILED COMPARISON:
+============================================================
+
+📌 Order #11752018574:
+  CSV Data:
+    - Side: Sell
+    - Type: Limit
+    - Limit Price: 24775.25
+    - Status: Rejected
+  API Basic Order:
+    - Action: Sell
+    - Type: undefined
+    - Status: Rejected
+    - Price fields:
+      • price: undefined
+      • limitPrice: undefined
+      • stopPrice: undefined
+      • workingPrice: undefined
+
+  🔬 Testing Enrichment for #11752018574:
+2025-11-22T01:21:57.707Z [RATE-LIMITER-INFO]: Executing request get-order-details-11752018574 (attempt 1)
+2025-11-22T01:21:57.774Z [RATE-LIMITER-INFO]: Request get-order-details-11752018574 completed successfully in 66ms
+2025-11-22T01:21:57.774Z [TRADOVATE-INFO]: 📋 Order 11752018574 details: {
+  "id": 11752018574,
+  "accountId": 761526,
+  "contractId": 4214197,
+  "timestamp": "2025-11-22T01:16:18.959Z",
+  "action": "Sell",
+  "ordStatus": "Rejected",
+  "executionProviderId": 3,
+  "archived": false,
+  "external": false,
+  "admin": false
+}
+2025-11-22T01:21:59.219Z [RATE-LIMITER-INFO]: Executing request get-order-versions-11752018574 (attempt 1)
+2025-11-22T01:21:59.268Z [RATE-LIMITER-INFO]: Request get-order-versions-11752018574 completed successfully in 48ms
+2025-11-22T01:21:59.268Z [TRADOVATE-INFO]: 📋 Order 11752018574 matching version details: {
+  "id": 11752018574,
+  "orderId": 11752018574,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 24775.25,
+  "timeInForce": "Day",
+  "text": "Tradingview"
+}
+  Enriched Order:
+    - Type: Limit
+    - Price: 24775.25
+    - Limit Price: undefined
+    - Stop Price: undefined
+
+  💰 Price Comparison:
+    CSV Price: 24775.25
+    API Extracted: 24775.25
+    ✅ MATCH! Prices are identical
+
+  📋 Order Versions Analysis:
+    Total versions: 5
+    Matching version found:
+      - Version ID: 11752018574
+      - Price: 24775.25
+      ✅ Version price matches CSV!
+
+    All versions (for debugging):
+      [0] OrderID: 11752018574, Price: 24775.25
+      [1] OrderID: 11752018565, Price: 24486.5
+      [2] OrderID: 11752018562, Price: 24493.5
+      [3] OrderID: 11752018568, Price: 24379.75
+      [4] OrderID: 11752018571, Price: 24738.25
+
+📌 Order #11752018571:
+  CSV Data:
+    - Side: Sell
+    - Type: Limit
+    - Limit Price: 24738.25
+    - Status: Rejected
+  API Basic Order:
+    - Action: Sell
+    - Type: undefined
+    - Status: Rejected
+    - Price fields:
+      • price: undefined
+      • limitPrice: undefined
+      • stopPrice: undefined
+      • workingPrice: undefined
+
+  🔬 Testing Enrichment for #11752018571:
+2025-11-22T01:22:00.722Z [RATE-LIMITER-INFO]: Executing request get-order-details-11752018571 (attempt 1)
+2025-11-22T01:22:00.769Z [RATE-LIMITER-INFO]: Request get-order-details-11752018571 completed successfully in 46ms
+2025-11-22T01:22:00.769Z [TRADOVATE-INFO]: 📋 Order 11752018571 details: {
+  "id": 11752018571,
+  "accountId": 761526,
+  "contractId": 4214197,
+  "timestamp": "2025-11-22T01:16:17.090Z",
+  "action": "Sell",
+  "ordStatus": "Rejected",
+  "executionProviderId": 3,
+  "archived": false,
+  "external": false,
+  "admin": false
+}
+2025-11-22T01:22:02.235Z [RATE-LIMITER-INFO]: Executing request get-order-versions-11752018571 (attempt 1)
+2025-11-22T01:22:02.281Z [RATE-LIMITER-INFO]: Request get-order-versions-11752018571 completed successfully in 46ms
+2025-11-22T01:22:02.282Z [TRADOVATE-INFO]: 📋 Order 11752018571 matching version details: {
+  "id": 11752018571,
+  "orderId": 11752018571,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 24738.25,
+  "timeInForce": "Day",
+  "text": "Tradingview"
+}
+  Enriched Order:
+    - Type: Limit
+    - Price: 24738.25
+    - Limit Price: undefined
+    - Stop Price: undefined
+
+  💰 Price Comparison:
+    CSV Price: 24738.25
+    API Extracted: 24738.25
+    ✅ MATCH! Prices are identical
+
+  📋 Order Versions Analysis:
+    Total versions: 5
+    Matching version found:
+      - Version ID: 11752018571
+      - Price: 24738.25
+      ✅ Version price matches CSV!
+
+    All versions (for debugging):
+      [0] OrderID: 11752018574, Price: 24775.25
+      [1] OrderID: 11752018565, Price: 24486.5
+      [2] OrderID: 11752018562, Price: 24493.5
+      [3] OrderID: 11752018568, Price: 24379.75
+      [4] OrderID: 11752018571, Price: 24738.25
+
+📌 Order #11752018568:
+  CSV Data:
+    - Side: Buy
+    - Type: Limit
+    - Limit Price: 24379.75
+    - Status: Rejected
+  API Basic Order:
+    - Action: Buy
+    - Type: undefined
+    - Status: Rejected
+    - Price fields:
+      • price: undefined
+      • limitPrice: undefined
+      • stopPrice: undefined
+      • workingPrice: undefined
+
+  🔬 Testing Enrichment for #11752018568:
+2025-11-22T01:22:03.741Z [RATE-LIMITER-INFO]: Executing request get-order-details-11752018568 (attempt 1)
+2025-11-22T01:22:03.791Z [RATE-LIMITER-INFO]: Request get-order-details-11752018568 completed successfully in 49ms
+2025-11-22T01:22:03.792Z [TRADOVATE-INFO]: 📋 Order 11752018568 details: {
+  "id": 11752018568,
+  "accountId": 761526,
+  "contractId": 4214197,
+  "timestamp": "2025-11-22T01:16:14.228Z",
+  "action": "Buy",
+  "ordStatus": "Rejected",
+  "executionProviderId": 3,
+  "archived": false,
+  "external": false,
+  "admin": false
+}
+2025-11-22T01:22:05.257Z [RATE-LIMITER-INFO]: Executing request get-order-versions-11752018568 (attempt 1)
+2025-11-22T01:22:05.309Z [RATE-LIMITER-INFO]: Request get-order-versions-11752018568 completed successfully in 52ms
+2025-11-22T01:22:05.309Z [TRADOVATE-INFO]: 📋 Order 11752018568 matching version details: {
+  "id": 11752018568,
+  "orderId": 11752018568,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 24379.75,
+  "timeInForce": "Day",
+  "text": "Tradingview"
+}
+  Enriched Order:
+    - Type: Limit
+    - Price: 24379.75
+    - Limit Price: undefined
+    - Stop Price: undefined
+
+  💰 Price Comparison:
+    CSV Price: 24379.75
+    API Extracted: 24379.75
+    ✅ MATCH! Prices are identical
+
+  📋 Order Versions Analysis:
+    Total versions: 5
+    Matching version found:
+      - Version ID: 11752018568
+      - Price: 24379.75
+      ✅ Version price matches CSV!
+
+    All versions (for debugging):
+      [0] OrderID: 11752018574, Price: 24775.25
+      [1] OrderID: 11752018565, Price: 24486.5
+      [2] OrderID: 11752018562, Price: 24493.5
+      [3] OrderID: 11752018568, Price: 24379.75
+      [4] OrderID: 11752018571, Price: 24738.25
+
+📌 Order #11752018565:
+  CSV Data:
+    - Side: Buy
+    - Type: Limit
+    - Limit Price: 24486.5
+    - Status: Rejected
+  API Basic Order:
+    - Action: Buy
+    - Type: undefined
+    - Status: Rejected
+    - Price fields:
+      • price: undefined
+      • limitPrice: undefined
+      • stopPrice: undefined
+      • workingPrice: undefined
+
+  🔬 Testing Enrichment for #11752018565:
+2025-11-22T01:22:06.766Z [RATE-LIMITER-INFO]: Executing request get-order-details-11752018565 (attempt 1)
+2025-11-22T01:22:06.829Z [RATE-LIMITER-INFO]: Request get-order-details-11752018565 completed successfully in 63ms
+2025-11-22T01:22:06.829Z [TRADOVATE-INFO]: 📋 Order 11752018565 details: {
+  "id": 11752018565,
+  "accountId": 761526,
+  "contractId": 4214197,
+  "timestamp": "2025-11-22T01:16:10.580Z",
+  "action": "Buy",
+  "ordStatus": "Rejected",
+  "executionProviderId": 3,
+  "archived": false,
+  "external": false,
+  "admin": false
+}
+2025-11-22T01:22:08.267Z [RATE-LIMITER-INFO]: Executing request get-order-versions-11752018565 (attempt 1)
+2025-11-22T01:22:08.312Z [RATE-LIMITER-INFO]: Request get-order-versions-11752018565 completed successfully in 44ms
+2025-11-22T01:22:08.312Z [TRADOVATE-INFO]: 📋 Order 11752018565 matching version details: {
+  "id": 11752018565,
+  "orderId": 11752018565,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 24486.5,
+  "timeInForce": "Day",
+  "text": "Tradingview"
+}
+  Enriched Order:
+    - Type: Limit
+    - Price: 24486.5
+    - Limit Price: undefined
+    - Stop Price: undefined
+
+  💰 Price Comparison:
+    CSV Price: 24486.5
+    API Extracted: 24486.5
+    ✅ MATCH! Prices are identical
+
+  📋 Order Versions Analysis:
+    Total versions: 5
+    Matching version found:
+      - Version ID: 11752018565
+      - Price: 24486.5
+      ✅ Version price matches CSV!
+
+    All versions (for debugging):
+      [0] OrderID: 11752018574, Price: 24775.25
+      [1] OrderID: 11752018565, Price: 24486.5
+      [2] OrderID: 11752018562, Price: 24493.5
+      [3] OrderID: 11752018568, Price: 24379.75
+      [4] OrderID: 11752018571, Price: 24738.25
+
+📌 Order #11752018562:
+  CSV Data:
+    - Side: Buy
+    - Type: Limit
+    - Limit Price: 24493.5
+    - Status: Rejected
+  API Basic Order:
+    - Action: Buy
+    - Type: undefined
+    - Status: Rejected
+    - Price fields:
+      • price: undefined
+      • limitPrice: undefined
+      • stopPrice: undefined
+      • workingPrice: undefined
+
+  🔬 Testing Enrichment for #11752018562:
+2025-11-22T01:22:09.771Z [RATE-LIMITER-INFO]: Executing request get-order-details-11752018562 (attempt 1)
+2025-11-22T01:22:09.834Z [RATE-LIMITER-INFO]: Request get-order-details-11752018562 completed successfully in 63ms
+2025-11-22T01:22:09.834Z [TRADOVATE-INFO]: 📋 Order 11752018562 details: {
+  "id": 11752018562,
+  "accountId": 761526,
+  "contractId": 4214197,
+  "timestamp": "2025-11-22T01:15:12.488Z",
+  "action": "Buy",
+  "ordStatus": "Rejected",
+  "executionProviderId": 3,
+  "archived": false,
+  "external": false,
+  "admin": false
+}
+2025-11-22T01:22:11.276Z [RATE-LIMITER-INFO]: Executing request get-order-versions-11752018562 (attempt 1)
+2025-11-22T01:22:11.324Z [RATE-LIMITER-INFO]: Request get-order-versions-11752018562 completed successfully in 48ms
+2025-11-22T01:22:11.324Z [TRADOVATE-INFO]: 📋 Order 11752018562 matching version details: {
+  "id": 11752018562,
+  "orderId": 11752018562,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 24493.5,
+  "timeInForce": "Day",
+  "text": "Tradingview"
+}
+  Enriched Order:
+    - Type: Limit
+    - Price: 24493.5
+    - Limit Price: undefined
+    - Stop Price: undefined
+
+  💰 Price Comparison:
+    CSV Price: 24493.5
+    API Extracted: 24493.5
+    ✅ MATCH! Prices are identical
+
+  📋 Order Versions Analysis:
+    Total versions: 5
+    Matching version found:
+      - Version ID: 11752018562
+      - Price: 24493.5
+      ✅ Version price matches CSV!
+
+    All versions (for debugging):
+      [0] OrderID: 11752018574, Price: 24775.25
+      [1] OrderID: 11752018565, Price: 24486.5
+      [2] OrderID: 11752018562, Price: 24493.5
+      [3] OrderID: 11752018568, Price: 24379.75
+      [4] OrderID: 11752018571, Price: 24738.25
+
+📊 VERIFICATION SUMMARY:
+============================================================
+  CSV Orders: 5
+  Found in API: 5
+  Missing: 0
+
+🔍 CHECKING ACCOUNT 761526 (1597812)
+============================================================
+
+📋 Getting all orders from API...
+2025-11-22T01:22:12.786Z [RATE-LIMITER-INFO]: Executing request get-orders-761526 (attempt 1)
+2025-11-22T01:22:12.836Z [RATE-LIMITER-INFO]: Request get-orders-761526 completed successfully in 50ms
+2025-11-22T01:22:12.836Z [TRADOVATE-INFO]: 📋 Raw orders response: [
+  {
+    "id": 11752018574,
+    "accountId": 761526,
+    "contractId": 4214197,
+    "timestamp": "2025-11-22T01:16:18.959Z",
+    "action": "Sell",
+    "ordStatus": "Rejected",
+    "executionProviderId": 3,
+    "archived": false,
+    "external": false,
+    "admin": false
+  },
+  {
+    "id": 11752018565,
+    "accountId": 761526,
+    "contractId": 4214197,
+    "timestamp": "2025-11-22T01:16:10.580Z",
+    "action": "Buy",
+    "ordStatus": "Rejected",
+    "executionProviderId": 3,
+    "archived": false,
+    "external": false,
+    "admin": false
+  },
+  {
+    "id": 11752018562,
+    "accountId": 761526,
+    "contractId": 4214197,
+    "timestamp": "2025-11-22T01:15:12.488Z",
+    "action": "Buy",
+    "ordStatus": "Rejected",
+    "executionProviderId": 3,
+    "archived": false,
+    "external": false,
+    "admin": false
+  },
+  {
+    "id": 11752018568,
+    "accountId": 761526,
+    "contractId": 4214197,
+    "timestamp": "2025-11-22T01:16:14.228Z",
+    "action": "Buy",
+    "ordStatus": "Rejected",
+    "executionProviderId": 3,
+    "archived": false,
+    "external": false,
+    "admin": false
+  },
+  {
+    "id": 11752018571,
+    "accountId": 761526,
+    "contractId": 4214197,
+    "timestamp": "2025-11-22T01:16:17.090Z",
+    "action": "Sell",
+    "ordStatus": "Rejected",
+    "executionProviderId": 3,
+    "archived": false,
+    "external": false,
+    "admin": false
+  }
+]
+📊 Total orders from API: 5
+
+✅ Found 5 matching orders in API
+
+🔍 DETAILED COMPARISON:
+============================================================
+
+📌 Order #11752018574:
+  CSV Data:
+    - Side: Sell
+    - Type: Limit
+    - Limit Price: 24775.25
+    - Status: Rejected
+  API Basic Order:
+    - Action: Sell
+    - Type: undefined
+    - Status: Rejected
+    - Price fields:
+      • price: undefined
+      • limitPrice: undefined
+      • stopPrice: undefined
+      • workingPrice: undefined
+
+  🔬 Testing Enrichment for #11752018574:
+2025-11-22T01:22:14.289Z [RATE-LIMITER-INFO]: Executing request get-order-details-11752018574 (attempt 1)
+2025-11-22T01:22:14.334Z [RATE-LIMITER-INFO]: Request get-order-details-11752018574 completed successfully in 44ms
+2025-11-22T01:22:14.335Z [TRADOVATE-INFO]: 📋 Order 11752018574 details: {
+  "id": 11752018574,
+  "accountId": 761526,
+  "contractId": 4214197,
+  "timestamp": "2025-11-22T01:16:18.959Z",
+  "action": "Sell",
+  "ordStatus": "Rejected",
+  "executionProviderId": 3,
+  "archived": false,
+  "external": false,
+  "admin": false
+}
+2025-11-22T01:22:15.792Z [RATE-LIMITER-INFO]: Executing request get-order-versions-11752018574 (attempt 1)
+2025-11-22T01:22:15.844Z [RATE-LIMITER-INFO]: Request get-order-versions-11752018574 completed successfully in 52ms
+2025-11-22T01:22:15.845Z [TRADOVATE-INFO]: 📋 Order 11752018574 matching version details: {
+  "id": 11752018574,
+  "orderId": 11752018574,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 24775.25,
+  "timeInForce": "Day",
+  "text": "Tradingview"
+}
+  Enriched Order:
+    - Type: Limit
+    - Price: 24775.25
+    - Limit Price: undefined
+    - Stop Price: undefined
+
+  💰 Price Comparison:
+    CSV Price: 24775.25
+    API Extracted: 24775.25
+    ✅ MATCH! Prices are identical
+
+  📋 Order Versions Analysis:
+    Total versions: 5
+    Matching version found:
+      - Version ID: 11752018574
+      - Price: 24775.25
+      ✅ Version price matches CSV!
+
+    All versions (for debugging):
+      [0] OrderID: 11752018574, Price: 24775.25
+      [1] OrderID: 11752018565, Price: 24486.5
+      [2] OrderID: 11752018562, Price: 24493.5
+      [3] OrderID: 11752018568, Price: 24379.75
+      [4] OrderID: 11752018571, Price: 24738.25
+
+📌 Order #11752018571:
+  CSV Data:
+    - Side: Sell
+    - Type: Limit
+    - Limit Price: 24738.25
+    - Status: Rejected
+  API Basic Order:
+    - Action: Sell
+    - Type: undefined
+    - Status: Rejected
+    - Price fields:
+      • price: undefined
+      • limitPrice: undefined
+      • stopPrice: undefined
+      • workingPrice: undefined
+
+  🔬 Testing Enrichment for #11752018571:
+2025-11-22T01:22:17.306Z [RATE-LIMITER-INFO]: Executing request get-order-details-11752018571 (attempt 1)
+2025-11-22T01:22:17.351Z [RATE-LIMITER-INFO]: Request get-order-details-11752018571 completed successfully in 44ms
+2025-11-22T01:22:17.352Z [TRADOVATE-INFO]: 📋 Order 11752018571 details: {
+  "id": 11752018571,
+  "accountId": 761526,
+  "contractId": 4214197,
+  "timestamp": "2025-11-22T01:16:17.090Z",
+  "action": "Sell",
+  "ordStatus": "Rejected",
+  "executionProviderId": 3,
+  "archived": false,
+  "external": false,
+  "admin": false
+}
+2025-11-22T01:22:18.816Z [RATE-LIMITER-INFO]: Executing request get-order-versions-11752018571 (attempt 1)
+2025-11-22T01:22:18.866Z [RATE-LIMITER-INFO]: Request get-order-versions-11752018571 completed successfully in 50ms
+2025-11-22T01:22:18.866Z [TRADOVATE-INFO]: 📋 Order 11752018571 matching version details: {
+  "id": 11752018571,
+  "orderId": 11752018571,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 24738.25,
+  "timeInForce": "Day",
+  "text": "Tradingview"
+}
+  Enriched Order:
+    - Type: Limit
+    - Price: 24738.25
+    - Limit Price: undefined
+    - Stop Price: undefined
+
+  💰 Price Comparison:
+    CSV Price: 24738.25
+    API Extracted: 24738.25
+    ✅ MATCH! Prices are identical
+
+  📋 Order Versions Analysis:
+    Total versions: 5
+    Matching version found:
+      - Version ID: 11752018571
+      - Price: 24738.25
+      ✅ Version price matches CSV!
+
+    All versions (for debugging):
+      [0] OrderID: 11752018574, Price: 24775.25
+      [1] OrderID: 11752018565, Price: 24486.5
+      [2] OrderID: 11752018562, Price: 24493.5
+      [3] OrderID: 11752018568, Price: 24379.75
+      [4] OrderID: 11752018571, Price: 24738.25
+
+📌 Order #11752018568:
+  CSV Data:
+    - Side: Buy
+    - Type: Limit
+    - Limit Price: 24379.75
+    - Status: Rejected
+  API Basic Order:
+    - Action: Buy
+    - Type: undefined
+    - Status: Rejected
+    - Price fields:
+      • price: undefined
+      • limitPrice: undefined
+      • stopPrice: undefined
+      • workingPrice: undefined
+
+  🔬 Testing Enrichment for #11752018568:
+2025-11-22T01:22:20.331Z [RATE-LIMITER-INFO]: Executing request get-order-details-11752018568 (attempt 1)
+2025-11-22T01:22:20.374Z [RATE-LIMITER-INFO]: Request get-order-details-11752018568 completed successfully in 43ms
+2025-11-22T01:22:20.375Z [TRADOVATE-INFO]: 📋 Order 11752018568 details: {
+  "id": 11752018568,
+  "accountId": 761526,
+  "contractId": 4214197,
+  "timestamp": "2025-11-22T01:16:14.228Z",
+  "action": "Buy",
+  "ordStatus": "Rejected",
+  "executionProviderId": 3,
+  "archived": false,
+  "external": false,
+  "admin": false
+}
+2025-11-22T01:22:21.840Z [RATE-LIMITER-INFO]: Executing request get-order-versions-11752018568 (attempt 1)
+2025-11-22T01:22:21.891Z [RATE-LIMITER-INFO]: Request get-order-versions-11752018568 completed successfully in 51ms
+2025-11-22T01:22:21.891Z [TRADOVATE-INFO]: 📋 Order 11752018568 matching version details: {
+  "id": 11752018568,
+  "orderId": 11752018568,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 24379.75,
+  "timeInForce": "Day",
+  "text": "Tradingview"
+}
+  Enriched Order:
+    - Type: Limit
+    - Price: 24379.75
+    - Limit Price: undefined
+    - Stop Price: undefined
+
+  💰 Price Comparison:
+    CSV Price: 24379.75
+    API Extracted: 24379.75
+    ✅ MATCH! Prices are identical
+
+  📋 Order Versions Analysis:
+    Total versions: 5
+    Matching version found:
+      - Version ID: 11752018568
+      - Price: 24379.75
+      ✅ Version price matches CSV!
+
+    All versions (for debugging):
+      [0] OrderID: 11752018574, Price: 24775.25
+      [1] OrderID: 11752018565, Price: 24486.5
+      [2] OrderID: 11752018562, Price: 24493.5
+      [3] OrderID: 11752018568, Price: 24379.75
+      [4] OrderID: 11752018571, Price: 24738.25
+
+📌 Order #11752018565:
+  CSV Data:
+    - Side: Buy
+    - Type: Limit
+    - Limit Price: 24486.5
+    - Status: Rejected
+  API Basic Order:
+    - Action: Buy
+    - Type: undefined
+    - Status: Rejected
+    - Price fields:
+      • price: undefined
+      • limitPrice: undefined
+      • stopPrice: undefined
+      • workingPrice: undefined
+
+  🔬 Testing Enrichment for #11752018565:
+2025-11-22T01:22:23.340Z [RATE-LIMITER-INFO]: Executing request get-order-details-11752018565 (attempt 1)
+2025-11-22T01:22:23.383Z [RATE-LIMITER-INFO]: Request get-order-details-11752018565 completed successfully in 43ms
+2025-11-22T01:22:23.384Z [TRADOVATE-INFO]: 📋 Order 11752018565 details: {
+  "id": 11752018565,
+  "accountId": 761526,
+  "contractId": 4214197,
+  "timestamp": "2025-11-22T01:16:10.580Z",
+  "action": "Buy",
+  "ordStatus": "Rejected",
+  "executionProviderId": 3,
+  "archived": false,
+  "external": false,
+  "admin": false
+}
+2025-11-22T01:22:24.847Z [RATE-LIMITER-INFO]: Executing request get-order-versions-11752018565 (attempt 1)
+2025-11-22T01:22:24.912Z [RATE-LIMITER-INFO]: Request get-order-versions-11752018565 completed successfully in 65ms
+2025-11-22T01:22:24.912Z [TRADOVATE-INFO]: 📋 Order 11752018565 matching version details: {
+  "id": 11752018565,
+  "orderId": 11752018565,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 24486.5,
+  "timeInForce": "Day",
+  "text": "Tradingview"
+}
+  Enriched Order:
+    - Type: Limit
+    - Price: 24486.5
+    - Limit Price: undefined
+    - Stop Price: undefined
+
+  💰 Price Comparison:
+    CSV Price: 24486.5
+    API Extracted: 24486.5
+    ✅ MATCH! Prices are identical
+
+  📋 Order Versions Analysis:
+    Total versions: 5
+    Matching version found:
+      - Version ID: 11752018565
+      - Price: 24486.5
+      ✅ Version price matches CSV!
+
+    All versions (for debugging):
+      [0] OrderID: 11752018574, Price: 24775.25
+      [1] OrderID: 11752018565, Price: 24486.5
+      [2] OrderID: 11752018562, Price: 24493.5
+      [3] OrderID: 11752018568, Price: 24379.75
+      [4] OrderID: 11752018571, Price: 24738.25
+
+📌 Order #11752018562:
+  CSV Data:
+    - Side: Buy
+    - Type: Limit
+    - Limit Price: 24493.5
+    - Status: Rejected
+  API Basic Order:
+    - Action: Buy
+    - Type: undefined
+    - Status: Rejected
+    - Price fields:
+      • price: undefined
+      • limitPrice: undefined
+      • stopPrice: undefined
+      • workingPrice: undefined
+
+  🔬 Testing Enrichment for #11752018562:
+2025-11-22T01:22:26.357Z [RATE-LIMITER-INFO]: Executing request get-order-details-11752018562 (attempt 1)
+2025-11-22T01:22:26.398Z [RATE-LIMITER-INFO]: Request get-order-details-11752018562 completed successfully in 41ms
+2025-11-22T01:22:26.399Z [TRADOVATE-INFO]: 📋 Order 11752018562 details: {
+  "id": 11752018562,
+  "accountId": 761526,
+  "contractId": 4214197,
+  "timestamp": "2025-11-22T01:15:12.488Z",
+  "action": "Buy",
+  "ordStatus": "Rejected",
+  "executionProviderId": 3,
+  "archived": false,
+  "external": false,
+  "admin": false
+}
+2025-11-22T01:22:27.861Z [RATE-LIMITER-INFO]: Executing request get-order-versions-11752018562 (attempt 1)
+2025-11-22T01:22:27.909Z [RATE-LIMITER-INFO]: Request get-order-versions-11752018562 completed successfully in 48ms
+2025-11-22T01:22:27.909Z [TRADOVATE-INFO]: 📋 Order 11752018562 matching version details: {
+  "id": 11752018562,
+  "orderId": 11752018562,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 24493.5,
+  "timeInForce": "Day",
+  "text": "Tradingview"
+}
+  Enriched Order:
+    - Type: Limit
+    - Price: 24493.5
+    - Limit Price: undefined
+    - Stop Price: undefined
+
+  💰 Price Comparison:
+    CSV Price: 24493.5
+    API Extracted: 24493.5
+    ✅ MATCH! Prices are identical
+
+  📋 Order Versions Analysis:
+    Total versions: 5
+    Matching version found:
+      - Version ID: 11752018562
+      - Price: 24493.5
+      ✅ Version price matches CSV!
+
+    All versions (for debugging):
+      [0] OrderID: 11752018574, Price: 24775.25
+      [1] OrderID: 11752018565, Price: 24486.5
+      [2] OrderID: 11752018562, Price: 24493.5
+      [3] OrderID: 11752018568, Price: 24379.75
+      [4] OrderID: 11752018571, Price: 24738.25
+
+📊 VERIFICATION SUMMARY:
+============================================================
+  CSV Orders: 5
+  Found in API: 5
+  Missing: 0
+
+✅ API verification completed
+
+🎯 Key things to check:
+  1. Are all CSV orders found in the API?
+  2. Do the prices match between CSV and API?
+  3. Is the enrichment logic working correctly?
+  4. Are order versions being retrieved properly?

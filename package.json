@@ -1,0 +1,28 @@
+{
+  "name": "slingshot-backend",
+  "version": "1.0.0",
+  "description": "Slingshot AutoTrading Platform - Backend API",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "ws": "^8.14.2",
+    "socket.io": "^4.7.2",
+    "better-sqlite3": "^9.0.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["trading", "automation", "tradovate", "api"],
+  "author": "Slingshot Trading",
+  "license": "MIT"
+}

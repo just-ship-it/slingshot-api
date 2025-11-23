@@ -1,0 +1,666 @@
+🎯 TARGETED ORDER ENRICHMENT DEBUG
+==================================
+Target Order: #11752018536
+Expected Price: 24409
+Reported Price: 23600
+Debug Time: 2025-11-21T22:30:59.707Z
+
+🔧 Environment variables:
+TRADOVATE_USE_DEMO: false
+TRADOVATE_DEMO_URL: https://demo.tradovateapi.com/v1
+TRADOVATE_LIVE_URL: https://live.tradovateapi.com/v1
+🎯 Selected baseUrl: https://live.tradovateapi.com/v1
+🎯 Selected wsUrl: wss://md.tradovateapi.com/v1/websocket
+🔐 Authenticating...
+2025-11-21T22:30:59.712Z [TRADOVATE-INFO]: Authenticating with Tradovate LIVE
+2025-11-21T22:30:59.714Z [TRADOVATE-INFO]: Authenticating with username/password + CID/Secret...
+2025-11-21T22:30:59.901Z [TRADOVATE-INFO]: ✅ Successfully authenticated with Tradovate
+✅ Authentication successful
+
+📋 STEP 1: Basic Order Details API Call
+🔄 GET /order/item?id=11752018536
+✅ Basic order details received:
+{
+  "id": 11752018536,
+  "accountId": 761526,
+  "contractId": 4086418,
+  "timestamp": "2025-11-21T21:40:20.741Z",
+  "action": "Sell",
+  "ordStatus": "Canceled",
+  "executionProviderId": 3,
+  "linkedId": 11752018537,
+  "archived": true,
+  "external": false,
+  "admin": false
+}
+
+📊 Price fields in basic details:
+  - price: undefined
+  - limitPrice: undefined
+  - stopPrice: undefined
+  - workingPrice: undefined
+  - avgFillPrice: undefined
+
+📋 STEP 2: Order Versions API Call
+🔄 GET /orderVersion/list?orderId=11752018536
+✅ Order versions received: 49 versions
+
+📊 ALL ORDER VERSIONS:
+
+  Version 1:
+    - id: 11752018302
+    - orderId: 11752018302
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Market
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 2:
+    - id: 11752018483
+    - orderId: 11752018483
+    - price: 24312.75
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 3:
+    - id: 11752018524
+    - orderId: 11752018524
+    - price: 24509
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 4:
+    - id: 11752018378
+    - orderId: 11752018378
+    - price: 24140
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 5:
+    - id: 11752018442
+    - orderId: 11752018442
+    - price: 23500
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 6:
+    - id: 11752018464
+    - orderId: 11752018464
+    - price: 24600
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 7:
+    - id: 11752018400
+    - orderId: 11752018400
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24652
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 8:
+    - id: 11752018500
+    - orderId: 11752018500
+    - price: 24309
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 9:
+    - id: 11752018401
+    - orderId: 11752018401
+    - price: 24500
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 10:
+    - id: 11752018465
+    - orderId: 11752018465
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24652
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 11:
+    - id: 11752018399
+    - orderId: 11752018399
+    - price: 24600
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 12:
+    - id: 11752018447
+    - orderId: 11752018447
+    - price: 24600
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 13:
+    - id: 11752018434
+    - orderId: 11752018434
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 23652
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 14:
+    - id: 11752018441
+    - orderId: 11752018441
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 23652
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 15:
+    - id: 11752018537
+    - orderId: 11752018537
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24461
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 16:
+    - id: 11752018417
+    - orderId: 11752018417
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24652
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 17:
+    - id: 11752018343
+    - orderId: 11752018343
+    - price: 24273.25
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 18:
+    - id: 11752018481
+    - orderId: 11752018481
+    - price: 24412.75
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 19:
+    - id: 11752018286
+    - orderId: 11752018286
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24199
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 20:
+    - id: 11752018289
+    - orderId: 11752018286
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24175.5
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 21:
+    - id: 11752018364
+    - orderId: 11752018364
+    - price: 24140
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 22:
+    - id: 11752018350
+    - orderId: 11752018350
+    - price: 24140
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 23:
+    - id: 11752018357
+    - orderId: 11752018357
+    - price: 24140
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 24:
+    - id: 11752018323
+    - orderId: 11752018323
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Market
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 25:
+    - id: 11752018498
+    - orderId: 11752018498
+    - price: 24409
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 26:
+    - id: 11752018516
+    - orderId: 11752018516
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24357
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 27:
+    - id: 11752018448
+    - orderId: 11752018448
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24652
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 28:
+    - id: 11752018517
+    - orderId: 11752018517
+    - price: 24509
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 29:
+    - id: 11752018538
+    - orderId: 11752018538
+    - price: 24309
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 30:
+    - id: 11752018312
+    - orderId: 11752018312
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Market
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 31:
+    - id: 11752018332
+    - orderId: 11752018332
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24213
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 32:
+    - id: 11752018523
+    - orderId: 11752018523
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24357
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 33:
+    - id: 11752018499
+    - orderId: 11752018499
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24461
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 34:
+    - id: 11752018276
+    - orderId: 11752018276
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Market
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 35:
+    - id: 11752018435
+    - orderId: 11752018435
+    - price: 23500
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 36:
+    - id: 11752018440
+    - orderId: 11752018440
+    - price: 23600
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 37:
+    - id: 11752018371
+    - orderId: 11752018371
+    - price: 24140
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 38:
+    - id: 11752018536
+    - orderId: 11752018536
+    - price: 24409
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 39:
+    - id: 11752018392
+    - orderId: 11752018392
+    - price: 24600
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 40:
+    - id: 11752018416
+    - orderId: 11752018416
+    - price: 24600
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 41:
+    - id: 11752018449
+    - orderId: 11752018449
+    - price: 24500
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 42:
+    - id: 11752018385
+    - orderId: 11752018385
+    - price: 24600
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 43:
+    - id: 11752018466
+    - orderId: 11752018466
+    - price: 24500
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 44:
+    - id: 11752018522
+    - orderId: 11752018522
+    - price: 24409
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 45:
+    - id: 11752018482
+    - orderId: 11752018482
+    - price: undefined
+    - limitPrice: undefined
+    - stopPrice: 24464.75
+    - workingPrice: undefined
+    - orderType: Stop
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 46:
+    - id: 11752018515
+    - orderId: 11752018515
+    - price: 24409
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 47:
+    - id: 11752018529
+    - orderId: 11752018529
+    - price: 24302
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+  Version 48:
+    - id: 11752018418
+    - orderId: 11752018418
+    - price: 24500
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: undefined
+
+  Version 49:
+    - id: 11752018433
+    - orderId: 11752018433
+    - price: 23600
+    - limitPrice: undefined
+    - stopPrice: undefined
+    - workingPrice: undefined
+    - orderType: Limit
+    - timestamp: undefined
+    - timeInForce: Day
+
+📋 STEP 3: Simulating Current Slingshot Logic
+🔄 Current logic: orderVersions[orderVersions.length - 1]
+
+📊 "Latest" version selected (array index 48):
+{
+  "id": 11752018433,
+  "orderId": 11752018433,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 23600,
+  "timeInForce": "Day"
+}
+
+💰 Price from "latest" version:
+  - price: 23600
+  - limitPrice: undefined
+  - stopPrice: undefined
+
+📋 STEP 4: Simulating Data Merge Operation
+
+📊 Final enriched order (after merge):
+{
+  "id": 11752018536,
+  "accountId": 761526,
+  "contractId": 4086418,
+  "timestamp": "2025-11-21T21:40:20.741Z",
+  "action": "Sell",
+  "ordStatus": "Canceled",
+  "executionProviderId": 3,
+  "linkedId": 11752018537,
+  "archived": true,
+  "external": false,
+  "admin": false,
+  "orderId": 11752018433,
+  "orderQty": 1,
+  "orderType": "Limit",
+  "price": 23600,
+  "timeInForce": "Day"
+}
+
+💰 Final extracted price using current logic:
+  Extracted price: 23600
+
+📋 STEP 5: Analysis & Diagnosis
+========================================
+❌ PROBLEM: Extracted price is wrong (23600 instead of 24409)
+
+🎯 Found 4 version(s) with correct price 24409:
+  Correct version 1 (array index 24):
+    - timestamp: undefined
+    - price: 24409
+    - orderType: Limit
+  Correct version 2 (array index 37):
+    - timestamp: undefined
+    - price: 24409
+    - orderType: Limit
+  Correct version 3 (array index 43):
+    - timestamp: undefined
+    - price: 24409
+    - orderType: Limit
+  Correct version 4 (array index 45):
+    - timestamp: undefined
+    - price: 24409
+    - orderType: Limit
+
+💡 SOLUTION: Use a different version selection strategy!
+   Current logic selects: index 48
+   Should probably select: index 24
+
+🔍 Version Selection Analysis:
+  - Total versions: 49
+  - Latest version timestamp: undefined
+  - Latest version price: 23600
+  - Most recent version with price: index 48, price: 23600
+
+✅ Order enrichment debug completed
+
+🎯 Use the analysis above to fix the version selection logic in tradovateClient.js

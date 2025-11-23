@@ -1,0 +1,872 @@
+2025-11-21T21:31:32.404Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-21T21:31:32.405Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-21T21:31:32.405Z [INFO]: 🔗 Environment: development
+2025-11-21T21:31:32.406Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-21T21:31:32.418Z [INFO]: 📦 Database initialized successfully
+2025-11-21T21:31:32.526Z [INFO]: Webhook relay started successfully: PID 9064
+2025-11-21T21:31:33.088Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-21T21:31:33.562Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:31:41.757Z [INFO]: Account 761526 polling mode: ACTIVE → ACTIVE (Active trading: 0 positions, 1 orders)
+2025-11-21T21:31:41.758Z [INFO]: Account 761526 polling mode: IDLE → ACTIVE (Active trading: 0 positions, 1 orders)
+2025-11-21T21:31:47.794Z [INFO]: Account 761526 polling mode: ACTIVE → ACTIVE (Active trading: 0 positions, 1 orders)
+2025-11-21T21:31:47.796Z [INFO]: Data collector initialized with 1 accounts
+2025-11-21T21:31:47.799Z [INFO]: 📊 Position monitor started automatically
+2025-11-21T21:31:48.587Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:31:50.119Z [INFO]: POST /api/trading/re-sync - ::ffff:127.0.0.1
+2025-11-21T21:32:03.591Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:39:04.414Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-21T21:39:04.416Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-21T21:39:04.416Z [INFO]: 🔗 Environment: development
+2025-11-21T21:39:04.417Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-21T21:39:04.429Z [INFO]: 📦 Database initialized successfully
+2025-11-21T21:39:04.541Z [INFO]: Webhook relay started successfully: PID 16116
+2025-11-21T21:39:04.977Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-21T21:39:05.977Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:39:12.619Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-21T21:39:12.620Z [INFO]: Account 761526 polling mode: ACTIVE → IDLE (No trading activity)
+2025-11-21T21:39:12.628Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-21T21:39:12.628Z [INFO]: Account 761526 polling mode: IDLE → ACTIVE (Active trading: 0 positions, 1 orders)
+2025-11-21T21:39:14.043Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-21T21:39:14.045Z [INFO]: Data collector initialized with 1 accounts
+2025-11-21T21:39:14.046Z [INFO]: 📊 Position monitor started automatically
+2025-11-21T21:39:20.993Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:39:26.339Z [INFO]: POST /autotrader - ::ffff:127.0.0.1
+2025-11-21T21:39:27.629Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-21T21:39:27.631Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-21T21:39:27.634Z [INFO]: 🔗 Environment: development
+2025-11-21T21:39:27.636Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-21T21:39:27.659Z [INFO]: 📦 Database initialized successfully
+2025-11-21T21:39:27.794Z [INFO]: Webhook relay started successfully: PID 26148
+2025-11-21T21:39:27.822Z [INFO]: POST /autotrader - ::ffff:127.0.0.1
+2025-11-21T21:39:28.137Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-21T21:39:31.469Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-21T21:39:31.471Z [INFO]: Data collector initialized with 1 accounts
+2025-11-21T21:39:35.999Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:39:40.753Z [INFO]: POST /autotrader - ::ffff:127.0.0.1
+2025-11-21T21:39:51.001Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:40:06.105Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:40:20.407Z [INFO]: POST /autotrader - ::ffff:127.0.0.1
+2025-11-21T21:40:21.102Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:40:29.025Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-21T21:40:29.031Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-21T21:40:29.036Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:40:29.091Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-21T21:40:29.098Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:40:29.100Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-21T21:40:36.111Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:40:43.493Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-21T21:40:43.498Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-21T21:40:43.499Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:40:43.583Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-21T21:40:43.587Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:40:43.602Z [INFO]: Client connected: cG_mTvSqwlS3lCtTAAAB
+2025-11-21T21:40:43.610Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-21T21:40:43.663Z [INFO]: Client cG_mTvSqwlS3lCtTAAAB subscribed to account 761526
+2025-11-21T21:40:43.699Z [INFO]: Client cG_mTvSqwlS3lCtTAAAB subscribed to account 761526
+2025-11-21T21:40:43.717Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-21T21:40:53.028Z [INFO]: GET /api/trading/pnl - ::ffff:127.0.0.1
+2025-11-21T21:40:53.040Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-21T21:41:10.947Z [INFO]: POST /api/trading/re-sync - ::ffff:127.0.0.1
+2025-11-21T21:41:11.076Z [INFO]: Client cG_mTvSqwlS3lCtTAAAB subscribed to account 761526
+2025-11-21T21:41:18.579Z [INFO]: Client cG_mTvSqwlS3lCtTAAAB subscribed to account 761526
+2025-11-21T21:41:24.632Z [INFO]: Account 761526 polling mode: ACTIVE → ACTIVE (Active trading: 0 positions, 1 orders)
+2025-11-21T21:41:24.634Z [INFO]: Account 761526 polling mode: IDLE → ACTIVE (Active trading: 0 positions, 1 orders)
+2025-11-21T21:41:24.663Z [INFO]: Client cG_mTvSqwlS3lCtTAAAB subscribed to account 761526
+2025-11-21T21:41:24.672Z [INFO]: Client cG_mTvSqwlS3lCtTAAAB subscribed to account 761526
+2025-11-22T01:35:54.216Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T01:35:54.218Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T01:35:54.218Z [INFO]: 🔗 Environment: development
+2025-11-22T01:35:54.219Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T01:35:54.233Z [INFO]: 📦 Database initialized successfully
+2025-11-22T01:35:54.341Z [INFO]: Webhook relay started successfully: PID 27760
+2025-11-22T01:35:54.788Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T01:36:02.092Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T01:36:02.093Z [INFO]: Account 761526 polling mode: ACTIVE → IDLE (No trading activity)
+2025-11-22T01:36:02.100Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T01:36:02.100Z [INFO]: Account 761526 polling mode: IDLE → ACTIVE (Active trading: 0 positions, 1 orders)
+2025-11-22T01:36:03.608Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T01:36:03.610Z [INFO]: Data collector initialized with 1 accounts
+2025-11-22T01:36:03.611Z [INFO]: 📊 Position monitor started automatically
+2025-11-22T01:36:34.628Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:36:34.653Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:36:34.658Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:36:34.663Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:36:34.678Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:36:34.687Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:36:34.789Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:36:34.989Z [INFO]: Client connected: jkPelajPCb7U6LwqAAAB
+2025-11-22T01:36:34.993Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:36:39.531Z [INFO]: GET /api/trading/pnl - ::ffff:127.0.0.1
+2025-11-22T01:36:39.543Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:36:53.625Z [INFO]: POST /api/trading/re-sync - ::ffff:127.0.0.1
+2025-11-22T01:36:53.746Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:36:55.290Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:36:58.264Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:38:02.252Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:38:03.745Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:38:05.177Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:38:06.795Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:38:08.199Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:38:09.765Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:38:58.252Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:39:02.938Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:40:02.349Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:40:03.883Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:40:05.338Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:40:06.909Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:40:08.366Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:40:09.900Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:41:05.215Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:41:08.215Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:41:09.732Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:42:02.461Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:42:03.985Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:42:05.445Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:42:07.034Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:42:08.474Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:42:10.020Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:43:09.727Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:43:14.412Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:44:02.551Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:44:04.102Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:44:05.551Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:44:07.158Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:44:08.596Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:44:10.178Z [INFO]: Client jkPelajPCb7U6LwqAAAB subscribed to account 761526
+2025-11-22T01:44:52.499Z [INFO]: Received SIGINT. Graceful shutdown...
+2025-11-22T01:45:53.418Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T01:45:53.420Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T01:45:53.420Z [INFO]: 🔗 Environment: development
+2025-11-22T01:45:53.421Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T01:45:53.433Z [INFO]: 📦 Database initialized successfully
+2025-11-22T01:45:53.551Z [INFO]: Webhook relay started successfully: PID 26992
+2025-11-22T01:45:54.035Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T01:45:56.739Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T01:45:56.741Z [INFO]: Data collector initialized with 1 accounts
+2025-11-22T01:45:56.743Z [INFO]: 📊 Position monitor started automatically
+2025-11-22T01:45:59.109Z [INFO]: Client connected: EwVMBL6TD8Jo019PAAAC
+2025-11-22T01:45:59.131Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:45:59.136Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:45:59.144Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:45:59.153Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:45:59.169Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:45:59.172Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:45:59.182Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:45:59.200Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:45:59.211Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:46:03.949Z [INFO]: GET /api/trading/pnl - ::ffff:127.0.0.1
+2025-11-22T01:46:03.962Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:47:54.448Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:47:54.464Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:47:54.467Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:47:54.482Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:47:54.487Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:47:54.514Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:47:54.522Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:47:54.525Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:47:54.529Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:47:56.839Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:47:58.211Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:47:58.225Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:47:58.229Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:47:58.233Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:47:58.236Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:47:58.353Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:47:59.127Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:48:05.151Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:49:36.998Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:49:37.012Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:49:37.015Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:49:37.032Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:49:37.035Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:49:41.688Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:49:56.961Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:49:58.419Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:50:16.494Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:50:16.508Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:50:16.514Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:50:16.532Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:50:16.535Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:50:21.172Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:50:23.425Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:50:23.440Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:50:23.442Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:50:23.457Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:50:23.458Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:50:28.110Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:50:28.276Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:50:28.286Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:50:28.294Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:50:28.297Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:50:28.300Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:50:34.154Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:50:58.325Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:51:15.102Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:51:15.151Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:51:15.216Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:51:15.224Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:51:15.229Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:51:19.849Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:51:22.064Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:51:22.077Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:51:22.082Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:51:22.100Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:51:22.102Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:51:26.734Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:51:27.231Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:51:27.254Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:51:27.258Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:51:27.280Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:51:27.283Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:51:32.776Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:51:57.089Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:51:58.513Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:53:08.265Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:53:08.292Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:53:08.297Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:53:08.316Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:53:08.322Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:53:12.963Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:53:25.849Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:53:25.876Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:53:25.885Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:53:25.889Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:53:25.916Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:53:30.574Z [INFO]: GET /api/trading/stats - ::ffff:127.0.0.1
+2025-11-22T01:53:57.171Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:53:58.627Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:54:09.869Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:54:09.871Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:54:09.898Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:54:09.904Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:54:09.907Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:54:09.929Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:54:09.932Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:54:09.934Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:55:57.296Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:56:00.251Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:56:01.778Z [INFO]: Client EwVMBL6TD8Jo019PAAAC subscribed to account 761526
+2025-11-22T01:56:09.995Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:56:53.737Z [INFO]: Client disconnected: EwVMBL6TD8Jo019PAAAC
+2025-11-22T01:56:54.030Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:56:54.047Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:56:54.071Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:56:54.075Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:56:54.084Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:56:54.087Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:56:54.184Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:56:54.344Z [INFO]: Client connected: 2HiU93Ft8zIyhvO4AAAF
+2025-11-22T01:56:54.348Z [INFO]: Client 2HiU93Ft8zIyhvO4AAAF subscribed to account 761526
+2025-11-22T01:57:17.439Z [INFO]: Client 2HiU93Ft8zIyhvO4AAAF subscribed to account 761526
+2025-11-22T01:57:17.449Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:57:17.454Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:57:17.468Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:57:17.471Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:57:22.282Z [INFO]: Client 2HiU93Ft8zIyhvO4AAAF subscribed to account 761526
+2025-11-22T01:57:22.297Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:57:22.300Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:57:22.304Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:57:22.308Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:57:25.538Z [INFO]: Client 2HiU93Ft8zIyhvO4AAAF subscribed to account 761526
+2025-11-22T01:57:25.553Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:57:25.557Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:57:25.575Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:57:34.602Z [INFO]: Client disconnected: 2HiU93Ft8zIyhvO4AAAF
+2025-11-22T01:57:35.048Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:57:35.054Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:57:35.074Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:57:35.076Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:57:35.080Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:57:35.086Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:57:35.308Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:57:35.321Z [INFO]: Client connected: UY16c0nvtyy0XjK5AAAH
+2025-11-22T01:57:35.420Z [INFO]: Client UY16c0nvtyy0XjK5AAAH subscribed to account 761526
+2025-11-22T01:57:57.389Z [INFO]: Client UY16c0nvtyy0XjK5AAAH subscribed to account 761526
+2025-11-22T01:58:00.324Z [INFO]: Client UY16c0nvtyy0XjK5AAAH subscribed to account 761526
+2025-11-22T01:58:19.513Z [INFO]: Client UY16c0nvtyy0XjK5AAAH subscribed to account 761526
+2025-11-22T01:58:19.527Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:58:19.532Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:58:19.552Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:58:19.556Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:59:08.492Z [INFO]: Client UY16c0nvtyy0XjK5AAAH subscribed to account 761526
+2025-11-22T01:59:08.510Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T01:59:08.514Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:59:08.528Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T01:59:08.531Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T01:59:57.498Z [INFO]: Client UY16c0nvtyy0XjK5AAAH subscribed to account 761526
+2025-11-22T02:00:00.375Z [INFO]: Client UY16c0nvtyy0XjK5AAAH subscribed to account 761526
+2025-11-22T02:01:03.379Z [INFO]: Client UY16c0nvtyy0XjK5AAAH subscribed to account 761526
+2025-11-22T02:01:57.602Z [INFO]: Client UY16c0nvtyy0XjK5AAAH subscribed to account 761526
+2025-11-22T02:02:00.415Z [INFO]: Client UY16c0nvtyy0XjK5AAAH subscribed to account 761526
+2025-11-22T02:02:02.985Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:02:02.987Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:02:02.988Z [INFO]: 🔗 Environment: development
+2025-11-22T02:02:02.988Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:02:03.005Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:02:03.127Z [INFO]: Webhook relay started successfully: PID 23592
+2025-11-22T02:02:03.147Z [INFO]: Client connected: VYvRG0-Cd1C4DFcfAAAB
+2025-11-22T02:02:03.159Z [INFO]: Client VYvRG0-Cd1C4DFcfAAAB subscribed to account 761526
+2025-11-22T02:02:03.574Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:02:04.845Z [INFO]: Client VYvRG0-Cd1C4DFcfAAAB subscribed to account 761526
+2025-11-22T02:02:06.337Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:02:06.339Z [INFO]: Data collector initialized with 1 accounts
+2025-11-22T02:02:06.341Z [INFO]: 📊 Position monitor started automatically
+2025-11-22T02:02:06.353Z [INFO]: Client VYvRG0-Cd1C4DFcfAAAB subscribed to account 761526
+2025-11-22T02:02:09.745Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:02:09.746Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:02:09.747Z [INFO]: 🔗 Environment: development
+2025-11-22T02:02:09.747Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:02:09.763Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:02:09.879Z [INFO]: Webhook relay started successfully: PID 12340
+2025-11-22T02:02:09.897Z [INFO]: Client connected: NVy9SxAxGs0EkfwlAAAB
+2025-11-22T02:02:09.911Z [INFO]: Client NVy9SxAxGs0EkfwlAAAB subscribed to account 761526
+2025-11-22T02:02:10.264Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:02:11.561Z [INFO]: Client NVy9SxAxGs0EkfwlAAAB subscribed to account 761526
+2025-11-22T02:02:13.061Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:02:13.063Z [INFO]: Data collector initialized with 1 accounts
+2025-11-22T02:02:13.066Z [INFO]: 📊 Position monitor started automatically
+2025-11-22T02:02:13.084Z [INFO]: Client NVy9SxAxGs0EkfwlAAAB subscribed to account 761526
+2025-11-22T02:02:29.037Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:02:29.039Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:02:29.039Z [INFO]: 🔗 Environment: development
+2025-11-22T02:02:29.040Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:02:29.054Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:02:29.166Z [INFO]: Webhook relay started successfully: PID 11904
+2025-11-22T02:02:29.417Z [INFO]: Client connected: y2S6v6jVhfPsFRb_AAAB
+2025-11-22T02:02:29.427Z [INFO]: Client y2S6v6jVhfPsFRb_AAAB subscribed to account 761526
+2025-11-22T02:02:29.623Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:02:30.864Z [INFO]: Client y2S6v6jVhfPsFRb_AAAB subscribed to account 761526
+2025-11-22T02:02:33.049Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:02:33.050Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:02:33.051Z [INFO]: 🔗 Environment: development
+2025-11-22T02:02:33.051Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:02:33.068Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:02:33.182Z [INFO]: Webhook relay started successfully: PID 23684
+2025-11-22T02:02:33.201Z [INFO]: Client connected: F4FXsjiGeqlcRae2AAAB
+2025-11-22T02:02:33.213Z [INFO]: Client F4FXsjiGeqlcRae2AAAB subscribed to account 761526
+2025-11-22T02:02:33.520Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:02:58.005Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:02:58.006Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:02:58.007Z [INFO]: 🔗 Environment: development
+2025-11-22T02:02:58.007Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:02:58.022Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:02:58.125Z [INFO]: Webhook relay started successfully: PID 2244
+2025-11-22T02:02:58.470Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:03:00.797Z [INFO]: Client connected: sJzlWIf7VvGhqBkVAAAB
+2025-11-22T02:03:00.804Z [INFO]: Client sJzlWIf7VvGhqBkVAAAB subscribed to account 761526
+2025-11-22T02:03:03.518Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:03:08.906Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:03:08.909Z [INFO]: Data collector initialized with 1 accounts
+2025-11-22T02:03:08.912Z [INFO]: 📊 Position monitor started automatically
+2025-11-22T02:03:08.921Z [INFO]: Client sJzlWIf7VvGhqBkVAAAB subscribed to account 761526
+2025-11-22T02:04:07.045Z [INFO]: Client disconnected: sJzlWIf7VvGhqBkVAAAB
+2025-11-22T02:04:07.366Z [INFO]: Client connected: GD72v2fk8HgTj-asAAAD
+2025-11-22T02:04:07.400Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:04:07.404Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:04:07.414Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:04:07.435Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:04:07.440Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:04:07.450Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:04:07.456Z [INFO]: Client GD72v2fk8HgTj-asAAAD subscribed to account 761526
+2025-11-22T02:04:07.458Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:04:07.476Z [INFO]: Client GD72v2fk8HgTj-asAAAD subscribed to account 761526
+2025-11-22T02:05:09.115Z [INFO]: Client GD72v2fk8HgTj-asAAAD subscribed to account 761526
+2025-11-22T02:05:18.114Z [INFO]: Client GD72v2fk8HgTj-asAAAD subscribed to account 761526
+2025-11-22T02:07:09.075Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:07:09.077Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:07:09.077Z [INFO]: 🔗 Environment: development
+2025-11-22T02:07:09.078Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:07:09.090Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:07:09.199Z [INFO]: Webhook relay started successfully: PID 22180
+2025-11-22T02:07:09.665Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:07:09.792Z [INFO]: Client connected: qXoKk7KsXzdbgS4wAAAB
+2025-11-22T02:07:09.813Z [INFO]: Client qXoKk7KsXzdbgS4wAAAB subscribed to account 761526
+2025-11-22T02:07:10.949Z [INFO]: Client qXoKk7KsXzdbgS4wAAAB subscribed to account 761526
+2025-11-22T02:07:19.960Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:07:19.962Z [INFO]: Data collector initialized with 1 accounts
+2025-11-22T02:07:19.963Z [INFO]: 📊 Position monitor started automatically
+2025-11-22T02:07:19.970Z [INFO]: Client qXoKk7KsXzdbgS4wAAAB subscribed to account 761526
+2025-11-22T02:07:28.433Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:07:28.434Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:07:28.435Z [INFO]: 🔗 Environment: development
+2025-11-22T02:07:28.435Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:07:28.451Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:07:28.563Z [INFO]: Webhook relay started successfully: PID 22612
+2025-11-22T02:07:28.626Z [INFO]: Client connected: VSkMAvXH0ZVl2SKcAAAB
+2025-11-22T02:07:28.632Z [INFO]: Client VSkMAvXH0ZVl2SKcAAAB subscribed to account 761526
+2025-11-22T02:07:28.916Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:07:30.238Z [INFO]: Client VSkMAvXH0ZVl2SKcAAAB subscribed to account 761526
+2025-11-22T02:07:34.348Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:07:34.349Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:07:34.350Z [INFO]: 🔗 Environment: development
+2025-11-22T02:07:34.350Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:07:34.370Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:07:34.488Z [INFO]: Webhook relay started successfully: PID 10092
+2025-11-22T02:07:34.531Z [INFO]: Client connected: Yo9IJCtS8U0Obz1LAAAB
+2025-11-22T02:07:34.537Z [INFO]: Client Yo9IJCtS8U0Obz1LAAAB subscribed to account 761526
+2025-11-22T02:07:34.865Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:07:36.172Z [INFO]: Client Yo9IJCtS8U0Obz1LAAAB subscribed to account 761526
+2025-11-22T02:07:37.669Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:07:37.670Z [INFO]: Data collector initialized with 1 accounts
+2025-11-22T02:07:37.672Z [INFO]: 📊 Position monitor started automatically
+2025-11-22T02:07:37.684Z [INFO]: Client Yo9IJCtS8U0Obz1LAAAB subscribed to account 761526
+2025-11-22T02:08:18.948Z [INFO]: Client disconnected: Yo9IJCtS8U0Obz1LAAAB
+2025-11-22T02:08:19.208Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:08:19.214Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:08:19.225Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:08:19.232Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:08:19.248Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:08:19.258Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:08:19.263Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:08:19.538Z [INFO]: Client connected: Dy4ID298w0_8J3eyAAAE
+2025-11-22T02:08:19.553Z [INFO]: Client Dy4ID298w0_8J3eyAAAE subscribed to account 761526
+2025-11-22T02:08:44.256Z [INFO]: Client disconnected: Dy4ID298w0_8J3eyAAAE
+2025-11-22T02:08:44.537Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:08:44.544Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:08:44.567Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:08:44.571Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:08:44.575Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:08:44.578Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:08:44.628Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:08:44.783Z [INFO]: Client connected: Pm5oNJakwEaD62VDAAAG
+2025-11-22T02:08:44.789Z [INFO]: Client Pm5oNJakwEaD62VDAAAG subscribed to account 761526
+2025-11-22T02:09:37.845Z [INFO]: Client Pm5oNJakwEaD62VDAAAG subscribed to account 761526
+2025-11-22T02:09:39.309Z [INFO]: Client Pm5oNJakwEaD62VDAAAG subscribed to account 761526
+2025-11-22T02:10:23.604Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:10:23.605Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:10:23.606Z [INFO]: 🔗 Environment: development
+2025-11-22T02:10:23.606Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:10:23.619Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:10:23.722Z [INFO]: Webhook relay started successfully: PID 30316
+2025-11-22T02:10:23.743Z [INFO]: Client connected: M0BHMEdimXlb6uuZAAAB
+2025-11-22T02:10:23.750Z [INFO]: Client M0BHMEdimXlb6uuZAAAB subscribed to account 761526
+2025-11-22T02:10:24.118Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:10:25.402Z [WARN]: Data collector error for account 761526: this.tradovateClient.getOrdersBasic is not a function
+2025-11-22T02:10:25.410Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:10:25.411Z [INFO]: Data collector initialized with 1 accounts
+2025-11-22T02:10:25.413Z [INFO]: 📊 Position monitor started automatically
+2025-11-22T02:10:25.441Z [INFO]: Client M0BHMEdimXlb6uuZAAAB subscribed to account 761526
+2025-11-22T02:11:24.736Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:11:24.737Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:11:24.738Z [INFO]: 🔗 Environment: development
+2025-11-22T02:11:24.738Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:11:24.751Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:11:24.863Z [INFO]: Webhook relay started successfully: PID 26880
+2025-11-22T02:11:24.894Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:11:24.900Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:11:24.902Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:11:24.908Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:11:24.918Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:11:24.925Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:11:25.099Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:11:25.213Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:11:26.683Z [INFO]: Client connected: JnZh6R2qLHPT4fDvAAAB
+2025-11-22T02:11:26.688Z [INFO]: Client JnZh6R2qLHPT4fDvAAAB subscribed to account 245058
+2025-11-22T02:11:28.139Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:11:28.141Z [INFO]: Data collector initialized with 1 accounts
+2025-11-22T02:11:28.143Z [INFO]: 📊 Position monitor started automatically
+2025-11-22T02:11:28.145Z [INFO]: Client JnZh6R2qLHPT4fDvAAAB subscribed to account 245058
+2025-11-22T02:12:07.670Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:12:07.671Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:12:07.672Z [INFO]: 🔗 Environment: development
+2025-11-22T02:12:07.673Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:12:07.687Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:12:07.817Z [INFO]: Webhook relay started successfully: PID 26700
+2025-11-22T02:12:08.213Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:12:09.004Z [INFO]: Client connected: hNzUHWtdbEpYhEEQAAAB
+2025-11-22T02:12:09.025Z [INFO]: Client hNzUHWtdbEpYhEEQAAAB subscribed to account 245058
+2025-11-22T02:12:09.506Z [INFO]: Client hNzUHWtdbEpYhEEQAAAB subscribed to account 245058
+2025-11-22T02:12:11.004Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:12:11.006Z [INFO]: Data collector initialized with 1 accounts
+2025-11-22T02:12:11.008Z [INFO]: 📊 Position monitor started automatically
+2025-11-22T02:12:11.009Z [INFO]: Client hNzUHWtdbEpYhEEQAAAB subscribed to account 245058
+2025-11-22T02:12:23.217Z [INFO]: Client disconnected: hNzUHWtdbEpYhEEQAAAB
+2025-11-22T02:12:23.665Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:12:23.678Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:12:23.689Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:12:23.710Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:12:23.715Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:12:23.718Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:12:23.874Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:12:23.922Z [INFO]: Client connected: siAeE-6rYwS29P1_AAAE
+2025-11-22T02:12:23.936Z [INFO]: Client siAeE-6rYwS29P1_AAAE subscribed to account 761526
+2025-11-22T02:13:25.236Z [INFO]: 🚀 Slingshot Backend started on port 3001
+2025-11-22T02:13:25.237Z [INFO]: 📊 Dashboard will be available at http://localhost:3001/health
+2025-11-22T02:13:25.237Z [INFO]: 🔗 Environment: development
+2025-11-22T02:13:25.238Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:13:25.251Z [INFO]: 📦 Database initialized successfully
+2025-11-22T02:13:25.360Z [INFO]: Webhook relay started successfully: PID 20520
+2025-11-22T02:13:25.661Z [INFO]: Client connected: jsrCWqzfJbIuyWGbAAAB
+2025-11-22T02:13:25.672Z [INFO]: Client jsrCWqzfJbIuyWGbAAAB subscribed to account 761526
+2025-11-22T02:13:25.761Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:16:15.947Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:16:15.949Z [INFO]: 🔗 Environment: development
+2025-11-22T02:16:15.950Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:16:15.951Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:16:15.963Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:16:15.963Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:16:15.965Z [INFO]: ✅ Crash check completed
+2025-11-22T02:16:15.965Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:16:19.271Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:16:19.274Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-22T02:16:19.275Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-22T02:16:19.275Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-22T02:16:19.277Z [INFO]: 📊 Data sync completed: 1 accounts synced
+2025-11-22T02:16:19.277Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-22T02:16:19.278Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-22T02:16:19.279Z [INFO]: ✅ Position monitor started
+2025-11-22T02:16:19.279Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-22T02:16:19.357Z [INFO]: Webhook relay started successfully: PID 30500
+2025-11-22T02:16:19.359Z [INFO]: ✅ Webhook relay initialized
+2025-11-22T02:16:19.359Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-22T02:16:19.360Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-22T02:16:19.363Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-22T02:16:19.364Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-22T02:16:19.364Z [INFO]: 🎯 System is ready to handle requests
+2025-11-22T02:16:19.757Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:16:28.123Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:16:28.131Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:16:28.141Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:16:28.164Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:16:28.175Z [INFO]: Client connected: olJiGHbqsaXMVtcwAAAB
+2025-11-22T02:16:28.180Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:16:28.186Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:16:28.296Z [INFO]: Client olJiGHbqsaXMVtcwAAAB subscribed to account 761526
+2025-11-22T02:16:28.373Z [INFO]: Client olJiGHbqsaXMVtcwAAAB subscribed to account 761526
+2025-11-22T02:16:28.379Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:18:06.489Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:18:06.490Z [INFO]: 🔗 Environment: development
+2025-11-22T02:18:06.491Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:18:06.491Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:18:06.503Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:18:06.504Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:18:06.505Z [INFO]: ✅ Crash check completed
+2025-11-22T02:18:06.506Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:18:09.812Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:18:09.815Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-22T02:18:09.816Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-22T02:18:09.817Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-22T02:18:09.818Z [INFO]: 📊 Data sync completed: 2 accounts synced
+2025-11-22T02:18:09.819Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-22T02:18:09.820Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-22T02:18:09.821Z [INFO]: ✅ Position monitor started
+2025-11-22T02:18:09.822Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-22T02:18:09.913Z [INFO]: Webhook relay started successfully: PID 20544
+2025-11-22T02:18:09.916Z [INFO]: ✅ Webhook relay initialized
+2025-11-22T02:18:09.916Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-22T02:18:09.917Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-22T02:18:09.919Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-22T02:18:09.920Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-22T02:18:09.920Z [INFO]: 🎯 System is ready to handle requests
+2025-11-22T02:18:10.306Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:18:12.283Z [INFO]: Client connected: RPbaVdmasLzFGVqSAAAB
+2025-11-22T02:18:12.304Z [INFO]: Client RPbaVdmasLzFGVqSAAAB subscribed to account 761526
+2025-11-22T02:18:27.036Z [INFO]: Client RPbaVdmasLzFGVqSAAAB subscribed to account 761526
+2025-11-22T02:18:27.065Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:18:27.073Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:18:27.079Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:18:27.093Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:19:00.922Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:19:00.924Z [INFO]: 🔗 Environment: development
+2025-11-22T02:19:00.925Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:19:00.925Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:19:00.939Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:19:00.939Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:19:00.943Z [INFO]: ✅ Crash check completed
+2025-11-22T02:19:00.943Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:19:04.222Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:19:04.224Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-22T02:19:04.226Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-22T02:19:04.226Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-22T02:19:04.227Z [INFO]: 📊 Data sync completed: 2 accounts synced
+2025-11-22T02:19:04.228Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-22T02:19:04.229Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-22T02:19:04.231Z [INFO]: ✅ Position monitor started
+2025-11-22T02:19:04.231Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-22T02:19:04.321Z [INFO]: Webhook relay started successfully: PID 10808
+2025-11-22T02:19:04.323Z [INFO]: ✅ Webhook relay initialized
+2025-11-22T02:19:04.324Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-22T02:19:04.325Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-22T02:19:04.328Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-22T02:19:04.328Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-22T02:19:04.329Z [INFO]: 🎯 System is ready to handle requests
+2025-11-22T02:19:04.807Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:19:05.144Z [INFO]: Client connected: yuNtimydl7lAHlEWAAAB
+2025-11-22T02:19:05.154Z [INFO]: Client yuNtimydl7lAHlEWAAAB subscribed to account 761526
+2025-11-22T02:19:08.307Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:19:08.309Z [INFO]: 🔗 Environment: development
+2025-11-22T02:19:08.309Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:19:08.309Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:19:08.327Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:19:08.328Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:19:08.331Z [INFO]: ✅ Crash check completed
+2025-11-22T02:19:08.332Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:19:11.617Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:19:11.618Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-22T02:19:11.619Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-22T02:19:11.620Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-22T02:19:11.621Z [INFO]: 📊 Data sync completed: 2 accounts synced
+2025-11-22T02:19:11.621Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-22T02:19:11.622Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-22T02:19:11.623Z [INFO]: ✅ Position monitor started
+2025-11-22T02:19:11.623Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-22T02:19:11.692Z [INFO]: Webhook relay started successfully: PID 28952
+2025-11-22T02:19:11.694Z [INFO]: ✅ Webhook relay initialized
+2025-11-22T02:19:11.695Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-22T02:19:11.695Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-22T02:19:11.698Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-22T02:19:11.699Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-22T02:19:11.699Z [INFO]: 🎯 System is ready to handle requests
+2025-11-22T02:19:11.798Z [INFO]: Client connected: cA6zINCIN-7VkxXNAAAB
+2025-11-22T02:19:11.805Z [INFO]: Client cA6zINCIN-7VkxXNAAAB subscribed to account 761526
+2025-11-22T02:19:12.005Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:19:24.593Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:19:24.594Z [INFO]: 🔗 Environment: development
+2025-11-22T02:19:24.595Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:19:24.596Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:19:24.616Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:19:24.617Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:19:24.622Z [INFO]: ✅ Crash check completed
+2025-11-22T02:19:24.623Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:19:27.909Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:19:27.912Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-22T02:19:27.914Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-22T02:19:27.915Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-22T02:19:27.917Z [INFO]: 📊 Data sync completed: 2 accounts synced
+2025-11-22T02:19:27.918Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-22T02:19:27.919Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-22T02:19:27.921Z [INFO]: ✅ Position monitor started
+2025-11-22T02:19:27.922Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-22T02:19:28.038Z [INFO]: Webhook relay started successfully: PID 29608
+2025-11-22T02:19:28.042Z [INFO]: ✅ Webhook relay initialized
+2025-11-22T02:19:28.043Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-22T02:19:28.044Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-22T02:19:28.048Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-22T02:19:28.049Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-22T02:19:28.049Z [INFO]: 🎯 System is ready to handle requests
+2025-11-22T02:19:28.358Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:19:30.883Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:19:30.886Z [INFO]: 🔗 Environment: development
+2025-11-22T02:19:30.887Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:19:30.889Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:19:30.907Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:19:30.908Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:19:30.911Z [INFO]: ✅ Crash check completed
+2025-11-22T02:19:30.912Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:19:34.185Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:19:34.186Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-22T02:19:34.187Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-22T02:19:34.187Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-22T02:19:34.188Z [INFO]: 📊 Data sync completed: 2 accounts synced
+2025-11-22T02:19:34.189Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-22T02:19:34.189Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-22T02:19:34.190Z [INFO]: ✅ Position monitor started
+2025-11-22T02:19:34.191Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-22T02:19:34.266Z [INFO]: Webhook relay started successfully: PID 7548
+2025-11-22T02:19:34.269Z [INFO]: ✅ Webhook relay initialized
+2025-11-22T02:19:34.269Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-22T02:19:34.270Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-22T02:19:34.272Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-22T02:19:34.272Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-22T02:19:34.273Z [INFO]: 🎯 System is ready to handle requests
+2025-11-22T02:19:34.379Z [INFO]: Client connected: nfQsaz2Mfzq0zaxEAAAB
+2025-11-22T02:19:34.386Z [INFO]: Client nfQsaz2Mfzq0zaxEAAAB subscribed to account 761526
+2025-11-22T02:19:34.632Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:19:41.891Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:19:41.892Z [INFO]: 🔗 Environment: development
+2025-11-22T02:19:41.893Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:19:41.893Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:19:41.906Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:19:41.906Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:19:41.910Z [INFO]: ✅ Crash check completed
+2025-11-22T02:19:41.910Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:19:45.190Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:19:45.192Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-22T02:19:45.193Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-22T02:19:45.193Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-22T02:19:45.194Z [INFO]: 📊 Data sync completed: 2 accounts synced
+2025-11-22T02:19:45.195Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-22T02:19:45.195Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-22T02:19:45.196Z [INFO]: ✅ Position monitor started
+2025-11-22T02:19:45.197Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-22T02:19:45.310Z [INFO]: Webhook relay started successfully: PID 25752
+2025-11-22T02:19:45.312Z [INFO]: ✅ Webhook relay initialized
+2025-11-22T02:19:45.313Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-22T02:19:45.313Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-22T02:19:45.316Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-22T02:19:45.316Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-22T02:19:45.317Z [INFO]: 🎯 System is ready to handle requests
+2025-11-22T02:19:45.651Z [INFO]: Client connected: bN-QsJzMsMbMr4M5AAAB
+2025-11-22T02:19:45.657Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:19:45.662Z [INFO]: Client bN-QsJzMsMbMr4M5AAAB subscribed to account 761526
+2025-11-22T02:19:48.342Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:19:48.344Z [INFO]: 🔗 Environment: development
+2025-11-22T02:19:48.345Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:19:48.346Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:19:48.358Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:19:48.359Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:19:48.362Z [INFO]: ✅ Crash check completed
+2025-11-22T02:19:48.363Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:19:51.619Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:19:51.621Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-22T02:19:51.622Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-22T02:19:51.622Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-22T02:19:51.623Z [INFO]: 📊 Data sync completed: 2 accounts synced
+2025-11-22T02:19:51.624Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-22T02:19:51.624Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-22T02:19:51.625Z [INFO]: ✅ Position monitor started
+2025-11-22T02:19:51.626Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-22T02:19:51.718Z [INFO]: Webhook relay started successfully: PID 20132
+2025-11-22T02:19:51.720Z [INFO]: ✅ Webhook relay initialized
+2025-11-22T02:19:51.720Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-22T02:19:51.721Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-22T02:19:51.723Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-22T02:19:51.724Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-22T02:19:51.724Z [INFO]: 🎯 System is ready to handle requests
+2025-11-22T02:19:51.824Z [INFO]: Client connected: YkO84jqjq0HP3BtgAAAB
+2025-11-22T02:19:51.831Z [INFO]: Client YkO84jqjq0HP3BtgAAAB subscribed to account 761526
+2025-11-22T02:19:52.066Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:21:52.256Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:21:52.257Z [INFO]: 🔗 Environment: development
+2025-11-22T02:21:52.258Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:21:52.259Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:21:52.274Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:21:52.274Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:21:52.276Z [INFO]: ✅ Crash check completed
+2025-11-22T02:21:52.276Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:23:25.168Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:23:25.170Z [INFO]: 🔗 Environment: development
+2025-11-22T02:23:25.171Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:23:25.171Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:23:25.183Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:23:25.184Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:23:25.185Z [INFO]: ✅ Crash check completed
+2025-11-22T02:23:25.186Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:23:28.456Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:23:28.458Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-22T02:23:28.459Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-22T02:23:28.459Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-22T02:23:28.460Z [INFO]: 📊 Data sync completed: 2 accounts synced
+2025-11-22T02:23:28.461Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-22T02:23:28.462Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-22T02:23:28.464Z [INFO]: ✅ Position monitor started
+2025-11-22T02:23:28.465Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-22T02:23:28.549Z [INFO]: Webhook relay started successfully: PID 20432
+2025-11-22T02:23:28.551Z [INFO]: ✅ Webhook relay initialized
+2025-11-22T02:23:28.551Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-22T02:23:28.552Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-22T02:23:28.554Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-22T02:23:28.555Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-22T02:23:28.555Z [INFO]: 🎯 System is ready to handle requests
+2025-11-22T02:23:28.952Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:24:08.791Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:24:08.800Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:24:08.806Z [INFO]: Client connected: kUqul48yyjoYKUHYAAAB
+2025-11-22T02:24:08.818Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:24:08.842Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:24:08.846Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:24:08.851Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:24:08.900Z [INFO]: Client kUqul48yyjoYKUHYAAAB subscribed to account 761526
+2025-11-22T02:24:08.924Z [INFO]: Client kUqul48yyjoYKUHYAAAB subscribed to account 761526
+2025-11-22T02:24:08.992Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:25:28.639Z [INFO]: Client kUqul48yyjoYKUHYAAAB subscribed to account 761526
+2025-11-22T02:25:30.079Z [INFO]: Client kUqul48yyjoYKUHYAAAB subscribed to account 761526
+2025-11-22T02:26:06.172Z [INFO]: Client kUqul48yyjoYKUHYAAAB subscribed to account 761526
+2025-11-22T02:26:06.193Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:26:06.210Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:26:06.213Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:26:06.229Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:26:12.916Z [INFO]: Client kUqul48yyjoYKUHYAAAB subscribed to account 761526
+2025-11-22T02:26:12.939Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-22T02:26:12.948Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:26:12.969Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-22T02:26:12.971Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-22T02:27:28.726Z [INFO]: Client kUqul48yyjoYKUHYAAAB subscribed to account 761526
+2025-11-22T02:27:30.204Z [INFO]: Client kUqul48yyjoYKUHYAAAB subscribed to account 761526
+2025-11-22T02:28:14.568Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:28:14.570Z [INFO]: 🔗 Environment: development
+2025-11-22T02:28:14.570Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:28:14.571Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:28:14.583Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:28:14.584Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:28:14.585Z [INFO]: ✅ Crash check completed
+2025-11-22T02:28:14.586Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:28:34.395Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-22T02:28:34.397Z [INFO]: 🔗 Environment: development
+2025-11-22T02:28:34.398Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-22T02:28:34.399Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-22T02:28:34.415Z [INFO]: ✅ Database initialized successfully
+2025-11-22T02:28:34.416Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-22T02:28:34.420Z [INFO]: ✅ Crash check completed
+2025-11-22T02:28:34.420Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-22T02:28:37.699Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-22T02:28:37.701Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-22T02:28:37.702Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-22T02:28:37.703Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-22T02:28:37.704Z [INFO]: 📊 Data sync completed: 2 accounts synced
+2025-11-22T02:28:37.704Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-22T02:28:37.705Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-22T02:28:37.706Z [INFO]: ✅ Position monitor started
+2025-11-22T02:28:37.707Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-22T02:28:37.797Z [INFO]: Webhook relay started successfully: PID 28172
+2025-11-22T02:28:37.799Z [INFO]: ✅ Webhook relay initialized
+2025-11-22T02:28:37.800Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-22T02:28:37.800Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-22T02:28:37.803Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-22T02:28:37.804Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-22T02:28:37.805Z [INFO]: 🎯 System is ready to handle requests
+2025-11-22T02:28:38.247Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-22T02:28:41.319Z [INFO]: Client connected: i0vGtXuCIWxLvBKoAAAB
+2025-11-22T02:28:41.327Z [INFO]: Client i0vGtXuCIWxLvBKoAAAB subscribed to account 761526
+2025-11-23T01:11:32.656Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-23T01:11:32.658Z [INFO]: 🔗 Environment: development
+2025-11-23T01:11:32.659Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-23T01:11:32.659Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-23T01:11:32.672Z [INFO]: ✅ Database initialized successfully
+2025-11-23T01:11:32.673Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-23T01:11:32.675Z [INFO]: ✅ Crash check completed
+2025-11-23T01:11:32.675Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-23T01:11:33.625Z [INFO]: 🔄 Starting Slingshot Backend - Synchronous Startup
+2025-11-23T01:11:33.627Z [INFO]: 🔗 Environment: development
+2025-11-23T01:11:33.627Z [INFO]: 🎯 Tradovate: LIVE mode
+2025-11-23T01:11:33.628Z [INFO]: 📦 Step 1: Initializing database...
+2025-11-23T01:11:33.639Z [INFO]: ✅ Database initialized successfully
+2025-11-23T01:11:33.640Z [INFO]: 🔍 Step 2: Checking for crash restart...
+2025-11-23T01:11:33.644Z [INFO]: ✅ Crash check completed
+2025-11-23T01:11:33.644Z [INFO]: 🔑 Step 3: Initializing Tradovate data collector...
+2025-11-23T01:11:36.891Z [INFO]: Account 761526 polling mode: IDLE → IDLE (No trading activity)
+2025-11-23T01:11:36.893Z [INFO]: 📊 Data collector re-initialized: 1 accounts
+2025-11-23T01:11:36.894Z [INFO]: ✅ Tradovate data collector initialized and synced
+2025-11-23T01:11:36.895Z [INFO]: 📊 Step 3a: Waiting for initial data sync...
+2025-11-23T01:11:36.896Z [INFO]: 📊 Data sync completed: 2 accounts synced
+2025-11-23T01:11:36.897Z [INFO]: ✅ Initial Tradovate data sync completed
+2025-11-23T01:11:36.898Z [INFO]: 📊 Step 4: Starting position monitor...
+2025-11-23T01:11:36.899Z [INFO]: ✅ Position monitor started
+2025-11-23T01:11:36.900Z [INFO]: 🔗 Step 5: Initializing webhook relay...
+2025-11-23T01:11:37.464Z [INFO]: Webhook relay started successfully: PID 23532
+2025-11-23T01:11:37.466Z [INFO]: ✅ Webhook relay initialized
+2025-11-23T01:11:37.466Z [INFO]: 📝 Step 6: Logging startup to database...
+2025-11-23T01:11:37.467Z [INFO]: 🚀 Step 7: Starting HTTP server...
+2025-11-23T01:11:37.470Z [INFO]: ✅ Slingshot Backend fully initialized and listening on port 3001
+2025-11-23T01:11:37.470Z [INFO]: 📊 Dashboard available at http://localhost:3001/health
+2025-11-23T01:11:37.470Z [INFO]: 🎯 System is ready to handle requests
+2025-11-23T01:11:37.862Z [INFO]: Webhook relay connected to webhookrelay.com
+2025-11-23T01:11:46.640Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-23T01:11:46.646Z [INFO]: GET /api/trading/kill-switch - ::ffff:127.0.0.1
+2025-11-23T01:11:46.652Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-23T01:11:46.663Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-23T01:11:46.666Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-23T01:11:46.683Z [INFO]: GET /api/trading/health - ::ffff:127.0.0.1
+2025-11-23T01:11:46.726Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-23T01:11:46.934Z [INFO]: Client connected: Jfd_7Z_yMiEKEiNuAAAC
+2025-11-23T01:11:46.938Z [INFO]: Client Jfd_7Z_yMiEKEiNuAAAC subscribed to account 761526
+2025-11-23T01:13:37.036Z [INFO]: Client Jfd_7Z_yMiEKEiNuAAAC subscribed to account 761526
+2025-11-23T01:13:38.517Z [INFO]: Client Jfd_7Z_yMiEKEiNuAAAC subscribed to account 761526
+2025-11-23T01:15:37.156Z [INFO]: Client Jfd_7Z_yMiEKEiNuAAAC subscribed to account 761526
+2025-11-23T01:15:38.605Z [INFO]: Client Jfd_7Z_yMiEKEiNuAAAC subscribed to account 761526
+2025-11-23T01:16:38.509Z [INFO]: Client Jfd_7Z_yMiEKEiNuAAAC subscribed to account 761526
+2025-11-23T01:17:37.273Z [INFO]: Client Jfd_7Z_yMiEKEiNuAAAC subscribed to account 761526
+2025-11-23T01:17:38.743Z [INFO]: Client Jfd_7Z_yMiEKEiNuAAAC subscribed to account 761526
+2025-11-23T01:18:38.536Z [INFO]: GET /api/trading/critical-status - ::ffff:127.0.0.1
+2025-11-23T01:19:37.358Z [INFO]: Client Jfd_7Z_yMiEKEiNuAAAC subscribed to account 761526
+2025-11-23T01:19:38.840Z [INFO]: Client Jfd_7Z_yMiEKEiNuAAAC subscribed to account 761526

@@ -1,0 +1,6 @@
+Symbol,Side,Type,Qty,Limit Price,Stop Price,Take Profit,Stop Loss,Avg Fill Price,Status,Update Time,Order ID,Expiry,Expiry Time
+MNQH6,Sell,Limit,1,24775.25,,,,,Rejected,2025-11-21 20:16:18,11752018574,Day,
+MNQH6,Sell,Limit,1,24738.25,,,,,Rejected,2025-11-21 20:16:17,11752018571,Day,
+MNQH6,Buy,Limit,1,24379.75,,,,,Rejected,2025-11-21 20:16:14,11752018568,Day,
+MNQH6,Buy,Limit,1,24486.5,,,,,Rejected,2025-11-21 20:16:10,11752018565,Day,
+MNQH6,Buy,Limit,1,24493.5,,,,,Rejected,2025-11-21 20:15:12,11752018562,Day,
