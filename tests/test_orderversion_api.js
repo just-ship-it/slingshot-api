@@ -2,9 +2,9 @@
 
 // Load environment variables
 import dotenv from 'dotenv';
-dotenv.config({ path: '.env' });
+dotenv.config({ path: '../.env' });
 
-import TradovateClient from './src/services/tradovateClient.js';
+import TradovateClient from '../src/services/tradovateClient.js';
 
 async function testOrderVersionAPI() {
   console.log('🔬 TESTING /orderVersion/list API PARAMETER BEHAVIOR');

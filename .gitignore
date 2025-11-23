@@ -1,2 +1,6 @@
-node_modules/ 
-logs/ 
+node_modules/
+logs/
+data/
+.env
+*.pem
+*.key

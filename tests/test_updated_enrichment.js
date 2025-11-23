@@ -2,18 +2,32 @@
 
 // Load environment variables
 import dotenv from 'dotenv';
-dotenv.config({ path: '.env' });
+dotenv.config({ path: '../.env' });
 
-import TradovateClient from './src/services/tradovateClient.js';
+import TradovateClient from '../src/services/tradovateClient.js';
 
 async function testUpdatedEnrichment() {
   console.log('🧪 TESTING UPDATED ORDER ENRICHMENT WITH /orderVersion/deps');
   console.log('===========================================================');
   console.log(`Test Time: ${new Date().toISOString()}\n`);
 
+  // Debug environment variables
+  console.log('🔍 Environment Variables Debug:');
+  console.log(`  TRADOVATE_USE_DEMO: "${process.env.TRADOVATE_USE_DEMO}"`);
+  console.log(`  TRADOVATE_LIVE_URL: ${process.env.TRADOVATE_LIVE_URL || 'NOT SET'}`);
+  console.log(`  TRADOVATE_DEMO_URL: ${process.env.TRADOVATE_DEMO_URL || 'NOT SET'}`);
+  console.log(`  TRADOVATE_USERNAME: ${process.env.TRADOVATE_USERNAME ? 'SET' : 'NOT SET'}`);
+  console.log(`  TRADOVATE_PASSWORD: ${process.env.TRADOVATE_PASSWORD ? 'SET' : 'NOT SET'}`);
+  console.log(`  Condition check: process.env.TRADOVATE_USE_DEMO === 'true' = ${process.env.TRADOVATE_USE_DEMO === 'true'}`);
+  console.log(`  Selected URL should be: ${process.env.TRADOVATE_USE_DEMO === 'true' ? process.env.TRADOVATE_DEMO_URL : process.env.TRADOVATE_LIVE_URL}`);
+  console.log();
+
   try {
     // Create client and authenticate
     const client = new TradovateClient();
+    console.log(`🔗 TradovateClient Debug:`);
+    console.log(`  client.baseUrl: "${client.baseUrl}"`);
+    console.log(`  client.wsUrl: "${client.wsUrl}"`);
     console.log(`🔐 Authenticating...`);
     await client.authenticate();
     console.log('✅ Authentication successful\n');

@@ -1,8 +1,8 @@
 import dotenv from 'dotenv';
-import TradovateClient from './src/services/tradovateClient.js';
+import TradovateClient from '../src/services/tradovateClient.js';
 
 // Load environment variables
-dotenv.config({ path: '.env' });
+dotenv.config({ path: '../.env' });
 
 console.log('=====================================');
 console.log('Tradovate API Connection Test');
